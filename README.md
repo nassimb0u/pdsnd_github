@@ -46,3 +46,11 @@ The app computes a variety of descriptive statistics to provide the following in
     * counts of each user type
     * counts of each gender (only available for NYC and Chicago)
     * earliest, most recent, most common year of birth (only available for NYC and Chicago)
+
+## Getting Started
+
+### Installing Dependencies
+
+#### Python
+
+Follow instructions to install the latest stable version of python for your platform in the python docs for [Unix](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python) or [Windows](https://docs.python.org/3.9/using/windows.html).
