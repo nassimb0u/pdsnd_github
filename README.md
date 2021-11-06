@@ -51,6 +51,7 @@ The app computes a variety of descriptive statistics to provide the following in
 
 ### Installing Dependencies
 
-#### Python
+#### Python (Anaconda Distribution)
 
-Follow instructions to install the latest stable version of python for your platform in the python docs for [Unix](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python) or [Windows](https://docs.python.org/3.9/using/windows.html).
+Anaconda is a distribution of Python for scientific computing. Follow instructions to install its latest version for your platform in [Anaconda's docs](https://docs.anaconda.com/anaconda/install/index.html).
+
