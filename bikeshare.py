@@ -1,15 +1,6 @@
 import time
 import pandas as pd
-import numpy as np
-import calendar
-
-CITY_DATA = { 'chicago': 'chicago.csv',
-              'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
-
-MONTHS = ['january', 'february', 'march', 'april', 'may', 'june']
-WEEK_DAYS = list(calendar.day_name)
-
+from config import CITIES_DATA, MONTHS, WEEK_DAYS
 
 def format_list(l):
     """
@@ -57,8 +48,8 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = input_choice(
-        f'Would you like to see data for {format_list(list(map(lambda e: e.title(), CITY_DATA.keys())))} ? ',
-        lambda c: c.lower() in CITY_DATA.keys()
+        f'Would you like to see data for {format_list(list(map(lambda e: e.title(), CITIES_DATA.keys())))} ? ',
+        lambda c: c.lower() in CITIES_DATA.keys()
     ).lower()
     
 
@@ -93,7 +84,7 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
-    df = pd.read_csv(CITY_DATA[city.lower()])
+    df = pd.read_csv(CITIES_DATA[city.lower()])
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     try:
         month = MONTHS.index(month.lower()) + 1
