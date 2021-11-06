@@ -55,3 +55,15 @@ The app computes a variety of descriptive statistics to provide the following in
 
 Anaconda is a distribution of Python for scientific computing. Follow instructions to install its latest version for your platform in [Anaconda's docs](https://docs.anaconda.com/anaconda/install/index.html).
 
+#### Pandas
+
+pandas is an open source data analysis and manipulation tool, built on top of the Python programming language.
+
+To install Pandas, run the following command in your terminal:
+
+```bash
+conda create -n explore-us-bikeshare-data pandas
+```
+
+This will setup a virtual environment with the name `explore-us-bikeshare-data` and install pandas in it.
+
