@@ -2,7 +2,9 @@
 
 Explore US Bikeshare Data is a Python application to explore data related to bike share systems for three major cities in the United States: Chicago, New York City, and Washington.
 
-## The Datasets
+## Specifications
+
+### The Datasets
 
 Datasets used for all three cities are randomly selected data for the first six months of 2017. All three of the data files contain the same core six (6) columns:
 
@@ -18,7 +20,7 @@ The Chicago and New York City data files also have the following two columns:
 * Gender
 * Birth Year
 
-## Statistics Computed
+### Statistics Computed
 
 The app computes a variety of descriptive statistics to provide the following information:
 
