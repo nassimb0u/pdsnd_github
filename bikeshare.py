@@ -1,14 +1,6 @@
 import time
 import pandas as pd
-import calendar
-
-CITY_DATA = { 'chicago': 'chicago.csv',
-              'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
-
-MONTHS = ['january', 'february', 'march', 'april', 'may', 'june']
-WEEK_DAYS = list(calendar.day_name)
-
+from config import CITY_DATA, MONTHS, WEEK_DAYS
 
 def format_list(l):
     """
